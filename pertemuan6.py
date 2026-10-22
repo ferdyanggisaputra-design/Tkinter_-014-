@@ -63,3 +63,7 @@ E10.grid(row=10, column=1, padx=20, pady=2)
 btn_prediksi = tk.Button(top, text="Hasil Prediksi", command=hitung_prediksi)
 btn_prediksi.grid(row=11, column=0, columnspan=2, pady=15)
 
+label_hasil = tk.Label(top, text="Hasil Prediksi: -")
+label_hasil.grid(row=12, column=0, columnspan=2, pady=5)
+
+top.mainloop()
